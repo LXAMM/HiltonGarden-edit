@@ -1,0 +1,78 @@
+@import "./header.css";
+@import "./first-section.css";
+@import "./footer.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap");
+
+:root {
+  /*  Colores  */
+  --primary-color: #3d56b2;
+  --secondary-color: #5c7aea;
+  --title-color: #121f26;
+  --text-color: #4f4f4f;
+  --white: #fff;
+  --black: #333;
+
+  /*  Fuentes  */
+  --base-font: "Nunito Sans", sans-serif;
+
+  /*  Tamaños  */
+  --section-spacing: 4rem;
+  --body-line-height: 1.6;
+  --title-line-height: 1.3;
+
+  /* Tamaños de fuentes */
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.562rem;
+  --h3-font-size: 0.937rem;
+  --normal-font-size: 0.875rem;
+  --small-font-size: 0.75rem;
+  --smaller-font-size: 0.6875rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-color);
+  font-family: var(--base-font);
+  background-color: var(--white);
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  color: var(--title-color);
+  font-family: var(--base-font);
+  text-align: center;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 700;
+}
